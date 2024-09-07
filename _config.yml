@@ -1,0 +1,112 @@
+# Site
+name: "Jockey Club Academy Hall 4"
+title: "Jockey Club Academy Hall 4"
+description: "Hall 4 Website"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: /sro/academyhall
+google_analytics: 'G-7GXPPBX021'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  ivy:
+    name: Ivy
+    display_name: Ivy
+    avatar: 'assets/images/ivy.jpg'
+    email: ivyliu.lcc@gmail.com
+    web: https://www.linkedin.com/in/ivy-liu-276648240/
+    twitter: https://www.instagram.com/ivy_liu_3
+    description: "Hi Academians! Im Ivy Liu, a Year 2 biomedical engineering student and the leader of the Writer Team in the publicity team. Nice to you all! I love hiking and reading during my downtime. I am responsible for writing the wonderful events that happened in our hall 4 lovely community! "
+
+  pai:
+    name: Pai
+    display_name: Pai
+    avatar: 'assets/images/pai.jpg'
+    email: pphuriyap2-c@my.cityu.edu.hk
+    web: https://www.linkedin.com/in/phraewaphuriyaphan
+    description: "Im Pai from Thailand, a sophomore majoring in Information Management with a minor in Supply Chain Management. A fun fact about me is I love collecting art toys."
+    
+  grisha:
+    name: Grisha
+    display_name: Grisha    
+    avatar: 'assets/images/grisha.jpeg'
+    email: giunusov2-c@my.cityu.edu.hk
+    web: https://www.linkedin.com/in/grigorii-iunusov
+    description: "Hey there, folks! Im Grigorii Iunusov, a second-year student studying finance and business analytics. Nice to meet you all! My job is to write about all the amazing events that take place in our wonderful Hall 4 community! "
+
+  irena:
+    name: Irena
+    display_name: Irena    
+    avatar: 'assets/images/irena.jpg'
+    email: sctsui5-c@my.cityu.edu.hk
+    web: http://www.linkedin.com/in/irena-tsc
+    description: "Hola! Welcome to the best hall—Hall 4!!! I am a Data Science student who loves Tyrrell’s chips, especially the Sweet Chilli & Red Pepper flavor. Wishing you meet more amigos and enjoy life here ; )"
+
+  adam:
+    name: Adam
+    display_name: Adam    
+    avatar: 'assets/images/adam.jpeg'
+    email: adamgear2-c@my.edu.cityu.hk
+    description: "I'm Adam Gear, and I am studying a BSc in Computational Finance at CityU, currently in my second year. I'm originally from South Africa, and I've lived in JCAC Hall for 2 years."
+
+
+
+  sal:
+    name: Sal
+    display_name: Sal
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: wowthemesnet@gmail.com
+    twitter: https://twitter.com/wowthemesnet
+    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+  john:
+    name: John
+    display_name: John    
+    avatar: 'assets/images/avatar.png'
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: wowthemesnet@gmail.com
+    web: https://www.wowthemes.net
+    twitter: https://twitter.com/wowthemesnet
+    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
